@@ -2,7 +2,7 @@ Komennot joilla ajetaan dockerissa:
 
 docker build -t oma-nimi-imagelle . (huomaa välilyönti ja piste lopussa)
 
-docker run -d -p 8081:8081 --name nimi-kontainerille äsken-annettu-imagen-nimi
+docker run -d -p 3000:3000 --name nimi-kontainerille äsken-annettu-imagen-nimi
 
 mene selaimella:
 localhot:3000
